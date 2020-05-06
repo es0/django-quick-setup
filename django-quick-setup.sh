@@ -27,15 +27,15 @@ check_install(){
 
 if [ $# -eq 0 ]
   then
-    echo "Usage: django-quick-install.sh <Project directory> <Project-Name>"
+    echo "Usage: django-quick-setup.sh <Project directory> <Project-Name>"
 fi
 if [ $# -eq 1 ]
   then
-    echo "Usage: django-quick-install.sh <Project directory> <Project-Name>"
+    echo "Usage: django-quick-setup.sh <Project directory> <Project-Name>"
 fi
 if [ $# -ge 3 ]
   then
-    echo "Usage: django-quick-install.sh <project directory> <Project-Name>"
+    echo "Usage: django-quick-setup.sh <project directory> <Project-Name>"
 fi
 
 if [ $# -eq 2 ]
